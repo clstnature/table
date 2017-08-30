@@ -13,38 +13,45 @@
     <img src="img/pizza.jpg" alt="Піца" width="400" height="300">
     <form action="https://formspree.io/clstnature@gmail.com" method="POST">
   <p>Яка з цих піц вам найбільше до вподоби?</p>
-  
-  <input type="radio" name="pizza" value="Гавайська" checked> Гавайська<br>
-  <input type="radio" name="pizza" value="Маргарита"> Маргарита<br>
-  <input type="radio" name="pizza" value="Карбонара"> Карбонара <br>
-  <input type="radio" name="pizza" value="Неаполітана"> Неаполітана 
+
+    <label><input id="gavai" type="radio" name="pizza" value="gavai" checked>Гавайська</label><br>
+  <label><input id="margaryt" type="radio" name="pizza" value="margaryt"> Маргарита</label><br>
+  <label><input id="karbonara" type="radio" name="pizza" value="karbonara"> Карбонара</label> <br>
+  <label><input id="neopolit" type="radio" name="pizza" value="neopolit"> Неаполітана</label> 
   <p>Який ваш улюблений напій?</p>
   
-  <input type="radio" name="drink" value="Кава" checked> Кава<br>
-  <input type="radio" name="drink" value="Чай"> Чай<br>
-  <input type="radio" name="drink" value="Сік"> Сік<br>
-  <input type="radio" name="drink" value="Узвар"> Узвар 
+  <label><input type="radio" name="drink" value="coffe" checked> Кава</label><br>
+  <label><input type="radio" name="drink" value="tea"> Чай</label><br>
+  <label><input type="radio" name="drink" value="juice"> Сік</label><br>
+  <label><input type="radio" name="drink" value="uzvar"> Узвар</label> 
   <p>Ваш улюблений салат?</p>
    
-  <input type="radio" name="salad" value="Цезар" checked> Цезар<br>
-  <input type="radio" name="salad" value="Грецький"> Грецький<br>
-  <input type="radio" name="salad" value="Колізей"> Колізей<br>
-  <input type="radio" name="salad" value="Інший"> Інший 
+  <label><input type="radio" name="salad" value="cezar" checked> Цезар</label><br>
+  <label><input type="radio" name="salad" value="grec"> Грецький</label><br>
+  <label><input type="radio" name="salad" value="koliz"> Колізей</label><br>
+  <label><input type="radio" name="salad" value="other"> Інший</label> 
    
    <p>В якому місці любите обідати?</p>
  
-  <input type="radio" name="place" value="Тераса" checked> Тераса<br>
-  <input type="radio" name="place" value="Кафе"> Кафе<br>
-  <input type="radio" name="place" value="Вдома"> Вдома<br>
+  <label><input type="radio" name="place" value="terassa" checked> Тераса</label><br>
+  <label><input type="radio" name="place" value="cafe"> Кафе</label><br>
+  <label><input type="radio" name="place" value="home"> Вдома</label><br>
   
   
   Ім'я<br>
-  <input type="text" name="Ім'я" value="">
+  <input id="name" type="text" name="Ім'я" value="">
   <br>
   Прізвище<br>
-  <input type="text" name="Прізвище" value="">
+  <input id="lastname" type="text" name="Прізвище" value="">
   <br><br>
   <input type="submit" value="Відправити">
 </form> 
+<a href="index.html"><em>table</em></a>
+ <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+        integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous">
+        </script> 
+        <script type="text/javascript" src="form.js"></script>
+    
 </body>
 </html>
